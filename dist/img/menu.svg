@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="15px" viewBox="0 0 4 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>dots-three-vertical</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="headerr" transform="translate(-322.000000, -2.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Group">
+                <g id="dots-three-vertical" transform="translate(322.000000, 2.000000)">
+                    <path d="M2.25075,5.85 C1.3395,5.85 0.6,6.58875 0.6,7.5 C0.6,8.41125 1.3395,9.15 2.25075,9.15 C3.162,9.15 3.9,8.41125 3.9,7.5 C3.9,6.58875 3.162,5.85 2.25075,5.85 Z M2.25075,3.9 C3.162,3.9 3.9,3.1605 3.9,2.25 C3.9,1.3395 3.162,0.6 2.25075,0.6 C1.3395,0.6 0.6,1.33875 0.6,2.25 C0.6,3.16125 1.3395,3.9 2.25075,3.9 Z M2.25075,11.1 C1.3395,11.1 0.6,11.83875 0.6,12.75 C0.6,13.66125 1.3395,14.4 2.25075,14.4 C3.162,14.4 3.9,13.66125 3.9,12.75 C3.9,11.83875 3.162,11.1 2.25075,11.1 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

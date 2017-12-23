@@ -1,0 +1,229 @@
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "variables.less";
+@import "mixins.less";
+
+// Reset and dependencies
+@import "normalize.less";
+@import "print.less";
+@import "glyphicons.less";
+
+// Core CSS
+@import "scaffolding.less";
+@import "type.less";
+@import "code.less";
+@import "grid.less";
+@import "tables.less";
+@import "forms.less";
+@import "buttons.less";
+
+// Components
+@import "component-animations.less";
+@import "dropdowns.less";
+@import "button-groups.less";
+@import "input-groups.less";
+@import "navs.less";
+@import "navbar.less";
+@import "breadcrumbs.less";
+@import "pagination.less";
+@import "pager.less";
+@import "labels.less";
+@import "badges.less";
+@import "jumbotron.less";
+@import "thumbnails.less";
+@import "alerts.less";
+@import "progress-bars.less";
+@import "media.less";
+@import "list-group.less";
+@import "panels.less";
+@import "responsive-embed.less";
+@import "wells.less";
+@import "close.less";
+
+// Components w/ JavaScript
+@import "modals.less";
+@import "tooltip.less";
+@import "popovers.less";
+@import "carousel.less";
+
+// Utility classes
+@import "utilities.less";
+@import "responsive-utilities.less";
+
+
+// custom override styles
+
+.button {
+   		border: 2px solid #FFFFFF;
+    	padding: 10px 28px;
+    	color: white !important;
+    }
+
+.screen-01{
+	background-image: linear-gradient(-138deg, #3E3E3E 4%, #4F1466 100%);
+    padding: 20%;
+    height: 100vh;
+
+    .button {
+    	font-size: 28px;
+    	margin: 50px 0;
+    	display: inline-block;
+    }
+
+    ul {
+    	list-style: none;
+    	padding: 0;
+    	font-size: 22px;
+    	line-height: 2;
+    	font-weight: 100;
+    	margin-top: 75px;
+
+    	a {
+    		color: white;
+    	}
+    }
+}
+
+.header {
+	background-image: linear-gradient(-138deg, #3E3E3E 4%, #4F1466 100%);
+	padding: 24px;
+    height: 10vh;
+
+    .logo {
+    	margin: 0 auto;
+    	display: block;
+    }
+
+    .back-button {
+		float: left;
+	}
+}
+
+.chats {
+	padding: 10%;
+
+	span {
+		display: block;
+	}	
+}
+
+.single-chat {
+	display: block;
+	margin-bottom: 50px;
+
+	.avatar {
+		margin-right: 30px;
+		float: left;
+	}
+}
+
+.name {
+font-family: Avenir-Heavy;
+font-size: 24px;
+font-weight: 800;
+color: #363636;
+}
+
+.topic {
+font-family: Avenir-Roman;
+font-size: 16px;
+color: #363636;
+}
+
+.header-large {
+	height: 20vh;
+	color: white;
+
+	.name, .topic {color: white;}
+
+	.chat-header {
+		padding: 10%;
+
+		.avatar {
+			margin-right: 10px;
+    		float: left;
+		}
+
+		span {
+			display: block;
+		}	
+
+	}
+}
+
+.chat-convo {
+	display: inline-block;
+	width: 100%;
+	padding: 5%;
+	margin-top: 40px;
+
+	.block {
+		width: 100%;
+		display: block;
+		float:left;
+	}
+
+	.chat-bubble {
+		border-radius: 15px;
+		padding: 10px 20px;
+		color: white;
+		width: fit-content;
+		margin-bottom: 5px;
+		max-width: 80%;
+
+		.chat-bubble-content {
+
+		}
+	}
+
+	.chat-bubble-left {
+		background-color: #461C68;
+	}
+
+	.chat-bubble-right {
+		float: right;
+		background-color: #DF9006;
+	}
+}
+
+.chat-footer {
+	background-image: linear-gradient(-138deg, #3E3E3E 4%, #4F1466 100%);
+	padding: 5%;
+	display: block;
+	//margin-top: 40px;
+	position: sticky;
+    bottom: 0;
+    color: white;
+
+    .choices {
+    	min-height: 70px;
+    }
+
+	.button {
+		width: 48%;
+    	float: left;
+
+ 		&:nth-of-type(1) {
+ 			margin-right: 4%;
+ 		}
+	}
+
+	.info {
+		background-image: url('../img/info.png');
+	    margin: 10px 0;
+	    background-repeat: no-repeat;
+	    clear: both;
+	    padding-left: 30px;
+	    display: block;
+	}
+
+}
+
+.screen-03{
+	height: fit-content;
+}
