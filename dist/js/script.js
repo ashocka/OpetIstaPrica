@@ -55,12 +55,7 @@ $( document ).ready(function() {
 			$('.first').html('<span class="first-decision">Pa?</span>');
 			$('.second').html('<span class="second-decision">Svašta, možda si tamo bio potrebniji?</span>');
 
-			$(this).removeClass('choices').addClass('third-story');
-
-
-
 		});
 	});
-
 
 });
