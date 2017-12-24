@@ -18,7 +18,7 @@
     <![endif]-->
   </head>
   <body>
-  <div class="screen-01">
+  <div class="screen-01 hide">
     <img src="img/logo.png" />
     <a class="button">Stories</a>
 
@@ -30,7 +30,7 @@
     </ul>
   </div>
 
-  <div class="screen-02">
+  <div class="screen-02 hide">
     <div class="header">
       <a href="#" class="back-button"><img src="img/back.svg" /></a>
       <img src="img/logo-top.png" class="logo" />
@@ -82,47 +82,23 @@
     </div>
 
       <div class="chat-convo">
+
+  <div data-branch="first">
       <div class="block">
-        <div class="chat-bubble chat-bubble-left">
-          Hey man, you here?
+        <div class="chat-bubble chat-bubble-left display-choices">
+          Hej, znaš šta, razmišljam da promenim posao... 
         </div>
       </div>
-      
-      <div class="block">
-        <div class="chat-bubble chat-bubble-right">
-          Looking to quickly add Bootstrap to your project? Use the Bootstrap CDN, provided for free by the folks at MaxCDN. Using a package manager or need to download the source files?
-        </div>
-      </div>
-        <!-- -->
-      <div class="block">
-        <div class="chat-bubble chat-bubble-left">
-          Hey man, you here?
-        </div>
-      </div>
-      
-      <div class="block">
-        <div class="chat-bubble chat-bubble-right">
-          Yeah sup?
-        </div>
-      </div>
-      <div class="block">
-        <div class="chat-bubble chat-bubble-left">
-          Looking to quickly add Bootstrap to your project? Use the Bootstrap CDN, provided for free by the folks at MaxCDN. Using a package manager or need to download the source files?
-        </div>
-      </div>
-      
-      <div class="block">
-        <div class="chat-bubble chat-bubble-right">
-          Yeah sup?
-        </div>
-      </div>
+
+  </div>
+
         <!-- more chat bubbles -->
       </div>
 
       <div class="chat-footer">
         <div class="choices">
-          <a href="#" class="choice button">Wtf? When did she say that?</a>
-          <a href="#" class="choice button">Well tbf you can be quite queer</a>
+          <a href="javascript:;" data-tree="01" class="choice button">Opcija 1</a>
+          <a href="javascript:;" data-tree="02" class="choice button">Opcija 2</a>
         </div>
 
         <div class="info">Pick from options above</div>
